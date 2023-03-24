@@ -11,4 +11,6 @@ export const StyledDiv = styled.div`
   border: 1px solid ${({ theme }) => theme.color.mandy};
   border-radius: 20px;
   box-shadow: 2px 2px 10px black;
+  background: white;
+  color: black;
 `;

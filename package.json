@@ -2,9 +2,12 @@
   "name": "google-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://semiralharbi.github.io/react-todolist/",
+  "homepage": "https://semiralharbi.github.io/react-google-api/",
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
+    "@mui/styled-engine-sc": "^5.11.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
