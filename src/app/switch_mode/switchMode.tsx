@@ -8,6 +8,6 @@ interface Props {
 
 export const SwitchMode = ({ themeToggler, theme }: Props) => (
   <SwitchDiv>
-    <FormControlLabel control={<Switch onChange={themeToggler} />} label={`${theme} Mode`} />
+    <FormControlLabel control={<Switch color={"error"} onChange={themeToggler} />} label={`Dark Mode`} />
   </SwitchDiv>
 );

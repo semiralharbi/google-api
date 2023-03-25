@@ -10,7 +10,7 @@ export const StyledForm = styled.form`
 
 export const StyledButton = styled.button`
   width: 10%;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   text-align: center;
   color: black;
   background-color: white;
@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
 export const StyledInput = styled.input`
   padding-left: 10px;
   margin: auto 2%;
-  font-size: 2vw;
+  font-size: 1.3vw;
   width: 60%;
   height: 50px;
   box-shadow: 1px 1px 6px black;

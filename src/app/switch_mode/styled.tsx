@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
 export const SwitchDiv = styled.div`
-  margin: 2%;
+  margin: 1%;
   text-align: center;
 `;

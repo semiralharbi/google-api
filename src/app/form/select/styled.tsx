@@ -4,7 +4,7 @@ export const StyledSelect = styled.select`
   margin: auto 5%;
   align-items: center;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   width: 8%;
   height: 50px;
   box-shadow: 1px 1px 6px black;
