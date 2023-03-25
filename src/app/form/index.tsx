@@ -14,10 +14,13 @@ export const Form = ({ theme }: Props) => {
   const [zoom, setZoom] = useState(Zoom.x6);
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    inputRef.current!.focus();
+    if (!isMobile) {
+      inputRef.current!.focus();
+    }
     const coordinates = await getLocation(address);
     loader.load().then(() => {
       const newMap = new google.maps.Map(document.getElementById("map") as HTMLElement, {
