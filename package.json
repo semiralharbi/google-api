@@ -2,7 +2,7 @@
   "name": "google-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://semiralharbi.github.io/react-google-api/",
+  "homepage": "https://semiralharbi.github.io/google-api/",
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
     "@mui/icons-material": "^5.11.11",
