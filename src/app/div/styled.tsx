@@ -13,4 +13,9 @@ export const StyledDiv = styled.div`
   box-shadow: 2px 2px 10px black;
   background: white;
   color: black;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile600}) {
+    max-width: 100%;
+    height: 80vh;
+  }
 `;
